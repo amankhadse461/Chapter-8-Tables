@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Groups</title>
+</head>
+<body>
+
+    <p>The optional [colgroup] tag allows you to group columns together. [colgroup] elements must be child elements
+        of a [table] and must come after any [caption] elements and before any table content (e.g., [tr], [thead],
+        {tbody},</p>
+        <table>
+            <colgroup>
+                <col span="2" >
+                <col span="2">
+              </colgroup>
+
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>Male</td>
+                <td>20</td>
+                <td>aman@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>Male</td>
+                <td>20</td>
+                <td>aman@gmail.com</td>
+            </tr>
+        </table>
+
+
+            <p>The optional {col} tag allows you to reference individual columns or a range of columns without applying a logical
+                grouping. {col} elements are optional, but if present, they must be inside a {colgroup} element.</p>
+
+
+</body>
+</html>
